@@ -16,7 +16,7 @@ Abstract:
 
 Rather than modeling all transcription factors, in this challenge, we will just focus on one transcription factor: **CTCF** (a highly conserved zinc finger protein). Figure 1 below demonstrates the input and target output of the deep learning model.
 
-![Figure1](/figure/fig1.png?raw=true "Title")
+![Figure1](/DL_tutorial/figure/fig1.png "Title")
 
 The input of the model consists of two parts: 
 1. DNA sequence: one-hot encoding of the DNA sequences(A[1,0,0,0],T[0,1,0,0],C[0,0,1,0],G[0,0,0,1]), which have input length equal 
