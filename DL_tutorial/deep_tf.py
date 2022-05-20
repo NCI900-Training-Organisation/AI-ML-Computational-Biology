@@ -34,7 +34,7 @@ def get_args():
                         help='draw frequency (default draw 1 time)')
     parser.add_argument('-r', '--random_seed', default=1, type=int,
                         help='fix random seed')
-    parser.add_argument('-f', '--path', default='/g/data/ik06/stark/NCI_Leopard/', type=str,
+    parser.add_argument('-f', '--path', default='/scratch/vp91/kd1348/AI-ML-Applications-on-Gadi/DL_tutorial/', type=str,
                         help='save data to path')
     args = parser.parse_args()
     return args
@@ -75,7 +75,7 @@ def main():
         os.makedirs(result_dir, exist_ok=True)
     #
     # # data preprocessing
-    #os.system(f"python /g/data/ik06/stark/NCI_Leopard/data_preprocessing.py -tf {' '.join(the_tf)} -d {draw_times} -f {file_path}")
+    #os.system(f"python /scratch/vp91/kd1348/AI-ML-Applications-on-Gadi/DL_tutorial/data_preprocessing.py -tf {' '.join(the_tf)} -d {draw_times} -f {file_path}")
     
     # load model
     model = return_model(model_arch, max_len, vocab_size)
