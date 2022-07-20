@@ -11,3 +11,5 @@ DL_tutorial/preprocessed_CTCF_fimo_data/validation_data_0/dataset_spec.pb
 DL_tutorial/preprocessed_CTCF_fimo_data/validation_data_0/snapshot.metadata
 DL_tutorial/preprocessed_CTCF_fimo_data/validation_data_0/713178218433574184/00000000.shard/00000000.snapshot
 DL_tutorial/preprocessed_CTCF_fimo_data/validation_data_0/7266429743640946994/00000000.shard/00000000.snapshot
+.ipynb_checkpoints/jupyter_gpu_setup-checkpoint.pbs
+Gadi_tutorial/.ipynb_checkpoints/Workshop_1_Setup Environment on Gadi-checkpoint.ipynb
